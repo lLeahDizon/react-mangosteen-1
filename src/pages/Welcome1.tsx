@@ -1,8 +1,8 @@
-import { NavLink } from 'react-router-dom'
-import React from 'react'
-
+import s from './Welcome1.module.scss'
 export const Welcome1 = () => {
   return (
-    <div>1 <NavLink to="/welcome/2">下一页</NavLink></div>
+    <div className={s.wrapper}>
+      山竹记账
+    </div>
   )
 }
